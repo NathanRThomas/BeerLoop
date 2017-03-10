@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="icon" type="image/x-icon" href="/beerloop.ico?v=1">
+
+    <title>Nate's Beer Loop</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://d1fux7utj4vydd.cloudfront.net/bootstrap/js/bootstrap.min.js"></script>
+    <link href="https://d1fux7utj4vydd.cloudfront.net/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    
+    <script>
+        var $j = jQuery.noConflict();   //to avoid conflicts with other libraries
+    </script>
+
+    <style type="text/css">
+        body {
+            letter-spacing: 0;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h4, h5, h6, p {
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+        }
+        h1 {
+            
+        }
+        h2, h3, h4, label, button {
+            
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        img {
+            max-width: 100%;
+        }
+        
+        .hover:hover {
+            cursor: pointer;
+            opacity: 1 !important;
+        }
+
+        .start-hidden {
+            display: none;
+        }
+
+        input[type=file] {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Nate's Beer Loops</h1> <h4>(I give you options)</h4>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-12">
+                <h4><i>A guide to casual drinking in the Burlington area</i></h4>
+            </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="col-sm-12">
+                <p>round trip time is driving time only, there and back.  Add in additional time for how long your at the brewery</p>
+            </div>
+        </div>
+    
+        <hr />
+        <div>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#loop1" aria-controls="loop1" role="tab" data-toggle="tab">South</a></li>
+            <li role="presentation"><a href="#loop2" aria-controls="loop2" role="tab" data-toggle="tab">East</a></li>
+            <li role="presentation"><a href="#loop3" aria-controls="loop3" role="tab" data-toggle="tab">Downtown</a></li>
+            <li role="presentation"><a href="#loop4" aria-controls="loop4" role="tab" data-toggle="tab">Williston</a></li>
+            <li role="presentation"><a href="#loop5" aria-controls="loop5" role="tab" data-toggle="tab">North</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="loop1">
+                    <br/><br/>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>"South Loop"</h2> <p style="margin-left: 25px">1.5 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Scenic drive down route 7 through Middlebury</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://www.fiddleheadbrewing.com/" target="_blank">FiddleHead</a></td><td>Fri: 12-9 - Sat: 11-9 - Sun: 12-8</td><td>Yes</td></tr>
+                                            <tr><td><a href="http://www.woodchuck.com/" target="_blank">Woodchuck</a></td><td>Fri: 11-6 - Sat: 11-5 - Sun: 11-5</td><td>No</td></tr>
+                                            <tr><td><a href="http://ottercreekbrewing.com/" target="_blank">Otter Creek</a></td><td>Fri: 11-6 - Sat: 11-6 - Sun: 11-6</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>Modified</h2> <p style="margin-left: 25px">2.3 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Keep going south to Foley Brothers.  One sip of their "Fair Maiden" double ipa is worth it</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="https://www.facebook.com/FoleyBrothersBrewing" target="_blank">Foley Brothers</a></td><td>Fri: 11-5 - Sat: 11-5 - Sun: 11-4</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="/img/south_loop.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="loop2">
+                    <br/><br/>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>"East Loop"</h2> <p style="margin-left: 25px">2.5 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Brings you to the foothills of stowe</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://alchemistbeer.com/" target="_blank">The Alchemist</a></td><td>Fri: 11-7 - Sat: 11-7 - Sun: closed</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.vontrappbrewing.com/" target="_blank">Von Trapp</a></td><td>Fri: 11:30-9 - Sat: 11:30-9 - Sun: 11:30-9</td><td>Yes</td></tr>
+                                            <tr><td><a href="http://idletymebrewing.com/" target="_blank">Idletyme</a></td><td>Fri: 11:30-10 - Sat: 11:30-10 - Sun: 11:30-9</td><td>Yes</td></tr>
+                                            <tr><td><a href="http://www.rockartbrewery.com/" target="_blank">Rock Art</a></td><td>Fri: 10-6 - Sat: 10-6 - Sun: closed</td><td>No</td></tr>
+                                            <tr><td><a href="http://lostnationbrewing.com/" target="_blank">Lost Nation</a></td><td>Fri: 11:30-9 - Sat: 11:30-9 - Sun: 11:30-9</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>Modified</h2> <p style="margin-left: 25px">4 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Hill Farmstead is out there.  But Hill has won best brewer in the world 4 out of the last 5 years.</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://hillfarmstead.com" target="_blank">Hill Farmstead</a></td><td>Fri: 12-5 - Sat: 12-5 - Sun: closed</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="/img/east_loop.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="loop3">
+                    <br/><br/>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>"Downtown Loop"</h2> <p style="margin-left: 25px">0.5 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Known as the Burlington Loop</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://www.fiddleheadbrewing.com/" target="_blank">FiddleHead</a></td><td>Fri: 12-9 - Sat: 11-9 - Sun: 12-8</td><td>Yes</td></tr>
+                                            <tr><td><a href="http://www.magichat.net" target="_blank">Magic Hat</a></td><td>Fri: 10-7 - Sat: 10-7 - Sun: 12-6</td><td>No</td></tr>
+                                            <tr><td><a href="http://switchbackvt.com" target="_blank">Switchback</a></td><td>Fri: 11-8 - Sat: 11-8 - Sun: 11-6</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.zerogravitybeer.com" target="_blank">Zero Gravity</a></td><td>Fri: 12-10 - Sat: 12-10 - Sun: 12-9</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.queencitybrewery.com/" target="_blank">Queen City</a></td><td>Fri: 12-10 - Sat: 12-10 - Sun: 12-7</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.citizencider.com" target="_blank">Citizen Cider</a></td><td>Fri: 11-10 - Sat: 11-10 - Sun: 11-7</td><td>Yes</td></tr>
+                                            <tr><td><a href="http://www.foambrewers.com" target="_blank">Foam</a></td><td>Fri: 12-11 - Sat: 12-11 - Sun: 11-5</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="/img/downtown_loop.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="loop4">
+                    <br/><br/>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>"Williston Loop"</h2> <p style="margin-left: 25px">0.5 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">The next town over</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://www.burlingtonbeercompany.com/" target="_blank">Burlington Beer</a></td><td>Fri: 12-8 - Sat: 12-8 - Sun: 12-7</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.goodwaterbreweryvt.com/" target="_blank">Goodwater</a></td><td>Fri: 3-8 - Sat: 12-8 - Sun: 1-5</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.1strepublicbrewingco.com/" target="_blank">1st Republic</a></td><td>Fri: 3-8 - Sat: 10-5 - Sun: 10-4</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>Modified</h2> <p style="margin-left: 25px">1 Hour round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">Quick stop, just a little guy in a big pond</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="http://stonecorral.com" target="_blank">Stone Corral</a></td><td>Fri: 12-10 - Sat: 12-10 - Sun: 12-8</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="/img/williston_loop.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="loop5">
+                    <br/><br/>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>"North Loop"</h2> <p style="margin-left: 25px">0.8 Hours round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">The beer is colder when you head north</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="https://www.facebook.com/FourQuartersBrewing/" target="_blank">Four Quarters</a></td><td>Fri: 5-9 - Sat: 12-9 - Sun: 12-3</td><td>No</td></tr>
+                                            <tr><td><a href="http://www.simplerootsbrewing.com/" target="_blank">Simple Roots</a></td><td>Fri: 3-9 - Sat: 12-9 - Sun: closed</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <h2>Modified</h2> <p style="margin-left: 25px">2 Hour round trip</p>
+                                </div>
+                                <div class="col-sm-12">
+                                    <h4 style="margin-top: 25px">All the way up in St. Albans</h4>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <table class="table">
+                                        <thead><tr><th>Brewery</th><th>Hours</th><th>Food</th></tr></thead>
+                                        <tbody>
+                                            <tr><td><a href="https://www.14thstarbrewing.com/" target="_blank">14th Star Brewing</a></td><td>Fri: 4-10 - Sat: 4-10 - Sun: 12-4</td><td>No</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <img src="/img/north_loop.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
