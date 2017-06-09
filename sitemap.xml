@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" 
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url> 
+    <loc>http://twocraftyblondes.com/</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/taps.jpg</image:loc>
+       <image:caption>Beer Taps</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://twocraftyblondes.com/south.html</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/Middlebury.jpg</image:loc>
+       <image:caption>Middlebury</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://twocraftyblondes.com/east.html</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/stowe.jpg</image:loc>
+       <image:caption>Stowe</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://twocraftyblondes.com/downtown.html</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/church.jpg</image:loc>
+       <image:caption>Church Street</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://twocraftyblondes.com/north.html</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/Winooski.jpg</image:loc>
+       <image:caption>Winooski</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://twocraftyblondes.com/williston.html</loc> 
+    <image:image>
+       <image:loc>http://twocraftyblondes.com/img/backgrounds/williston.jpg</image:loc>
+       <image:caption>Williston</image:caption>
+    </image:image>
+  </url>
+</urlset>
