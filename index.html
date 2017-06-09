@@ -89,11 +89,11 @@
 <body>
 
     <div class="demo-header">
-        <div class="demo-header-content">
+        <div class="demo-header-content" itemscope itemtype="https://schema.org/Organization">
             <div class="container">
-                <h1>Nate's Beer Loops!</h1>
+                <h1 itemprop="name">Nate's Beer Loops!</h1>
                 <hr class="colored">
-                <p>A guide to casual drinking in the Burlington area</p>
+                <p itemprop="description">A guide to casual drinking in the Burlington area</p>
             </div>
         </div>
     </div>
@@ -146,17 +146,17 @@
     <div class="container pt-5" id="previews">
         <div class="row">
             <div class="col-md-4">
-                <div class="preview-pane">
+                <div class="preview-pane" itemscope itemtype="https://schema.org/Place">
                     <a href="/south.html">
                         <img src="img/logos/foley.jpg" class="img-fluid mx-auto mb-4" alt="">
-                        <h3>South Loop</h3>
+                        <h3 itemprop="name">South Loop</h3>
                         <hr class="colored">
-                        <p class="text-muted">1.5 Hours round trip</p>
+                        <p class="text-muted" itemprop="description">1.5 Hours round trip</p>
                         <ul class="list-unstyled text-muted">
-                            <li><em>Fiddlehead</em></li>
-                            <li><em>Woodchuck</em></li>
-                            <li><em>Otter Creek</em></li>
-                            <li><em>Foley Brothers</em></li>
+                            <li itemprop="containsPlace" itemscope itemtype="https://schema.org/Place"><em itemprop="name">Fiddlehead</em></li>
+                            <li itemprop="containsPlace" itemscope itemtype="https://schema.org/Place"><em itemprop="name">Woodchuck</em></li>
+                            <li itemprop="containsPlace" itemscope itemtype="https://schema.org/Place"><em itemprop="name">Otter Creek</em></li>
+                            <li itemprop="containsPlace" itemscope itemtype="https://schema.org/Place"><em itemprop="name">Foley Brothers</em></li>
                         </ul>
                     </a>
                 </div>
